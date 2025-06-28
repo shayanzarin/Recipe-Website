@@ -59,3 +59,39 @@ footer {
     margin-top: 40px;
     font-size: 2em;
 }
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--green2);
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+nav li {
+    margin: 0;
+}
+
+
+nav a {
+    color: var(--green1);
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+nav a:hover {
+    color: #42ff91;
+}
+
+
+
