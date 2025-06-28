@@ -1,0 +1,53 @@
+:root {
+    --green1: #2ecc71;
+    --green2: #eafaf1;
+    --text-dark: #333;
+    --background: #f4fdf6;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background);
+    color: var(--text-dark);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: var(--green1);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.05em;
+    margin-bottom: 10px;
+}
+
+.container {
+    background-color: var(--green2);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2em;
+}
